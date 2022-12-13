@@ -19,6 +19,7 @@
         <input type="text" placeholder="Senha">
         <span id="button-form"><button id="btn-login" type="submit">LOGIN</button></span>
       </form>
+      <span id="cadastro">Ainda não possui uma conta? <a href="#">Cadastre-se</a></span>
     </div>
   </div>
 </body>
