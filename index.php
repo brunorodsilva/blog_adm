@@ -15,8 +15,8 @@
       <img src="imagens/user.png">
     </div>
       <form action="" method="">
-        <input type="text" placeholder="E-mail">
-        <input type="text" placeholder="Senha">
+        <input type="text" placeholder="E-mail" maxlength="50">
+        <input type="text" placeholder="Senha" maxlength="12">
         <span id="button-form"><button id="btn-login" type="submit">LOGIN</button></span>
       </form>
       <span id="cadastro">Ainda não possui uma conta? <a href="cadastro.php">Cadastre-se</a></span>

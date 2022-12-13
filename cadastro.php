@@ -15,12 +15,11 @@
       <img src="imagens/user.png">
     </div>
       <form action="" method="">
-        <input type="text" placeholder="Nome">
-        <input type="text" placeholder="Sobrenome">
-        <input type="text" placeholder="E-mail">
-        <input type="text" placeholder="Senha">
-        <input type="text" placeholder="C">
-        <span id="button-form"><button id="btn-login" type="submit">LOGIN</button></span>
+        <input type="text" placeholder="Nome completo" maxlength="90">
+        <input type="text" placeholder="E-mail" maxlength="50">
+        <input type="password" placeholder="Senha" maxlength="12">
+        <input type="password" placeholder="Confirmação de senha" maxlength="12">
+        <span id="button-form"><button id="btn-login" type="submit">CADASTRAR</button></span>
       </form>
       <span id="cadastro">Já possui uma conta? <a href="index.php">Login</a></span>
     </div>
