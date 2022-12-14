@@ -66,7 +66,7 @@ input:focus{
   outline: none;
 }
 
-#btn-login{
+#btn-login, #btn-cadastrar{
   width: 100%;
   height: 45px;
   margin-top: 5px;
@@ -79,7 +79,7 @@ input:focus{
   cursor: pointer;
 }
 
-#btn-login:hover{
+#btn-login:hover, #btn-cadastrar:hover{
   background-color: #48b686;
   transition: 0.2s;
 }
@@ -108,3 +108,126 @@ input:focus{
 #cadastro a:hover{
   text-decoration: underline;
 }
+
+#container-home{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#container-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 18%;
+  height: 100vh;
+  background-color: black;
+}
+
+#container-lateral{
+  width: 82%;
+  height: 100vh;
+}
+
+#imagem-menu{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width: 85%;
+}
+
+#imagem-menu img{
+  width: 160px;
+  height: 60px;
+}
+
+#home-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+#home-sair{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#home-sair a{
+  text-decoration: none;
+  color: #388d68;
+  font-weight: bold;
+}
+
+#home-sair a:hover{
+  text-decoration: underline;
+}
+
+#btn-sair{
+  width: 100%;
+  height: 50px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: none;
+  padding: 0px 10px 0px 10px;
+  background-color: #388d68;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#btn-sair i{
+  margin-right: 10px;
+}
+
+#button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+#home-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  width: 100%;
+  height: 68vh;
+}
+
+#home-menu a{
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+#home-menu ul{
+  width: 100%;
+  height: fit-content;
+}
+
+#home-menu li{
+  padding: 13px 0px 13px 8%;
+}
+
+#home-menu li:hover{
+  background-color: #388d68;
+  transition: 0.2s;
+}
+
+#home-menu a li i{
+  font-size: 20px;
+  margin-right: 13px;
+}
+
+
